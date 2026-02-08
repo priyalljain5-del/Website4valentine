@@ -1,0 +1,43 @@
+
+body {
+  background-color: #ffe6ee;
+  font-family: 'Comic Sans MS', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#yes {
+  background-color: #ff4d6d;
+  color: white;
+}
+
+#no {
+  background-color: #cfd8dc;
+}
+  
+
+document.getElementById("yes").onclick = () => {
+  document.body.innerHTML = "<h1>YAYYY 💕 You had no other choice!!!</h1>";
+};
+
+<audio autoplay loop>
+  <source src="romantic.mp3" type="audio/mpeg">
+</audio>
+<audio autoplay loop>
+  <source src="romantic.mp3" type="audio/mpeg">
+</audio>
